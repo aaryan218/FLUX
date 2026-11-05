@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles, Swords, Trophy, Shield, MessageSquare, LayoutDashboard } from 'lucide-react';
-import { useGameStore } from '../../stores/gameStore';
+import { useGameStore } from '../../stores/gameStore';       // mock data to be changed in prod
 
 export default function MobileNav({ activeTab, onSelectTab }) {
   const { activeRole } = useGameStore();
@@ -27,6 +27,7 @@ export default function MobileNav({ activeTab, onSelectTab }) {
                 isActive ? 'text-primary' : 'text-on-surface-variant hover:text-on-surface'
               }`}
             >
+              
               <Icon className={`w-5 h-5 ${isActive ? 'text-secondary animate-pulse' : ''}`} />
               <span className="font-display text-[10px] font-medium tracking-tight truncate max-w-full">
                 {tab.label}
