@@ -1,4 +1,4 @@
-# Gamers'G — Production Competitive Esports Platform
+# FLUX — Production Competitive Esports Platform
 
 Full-stack production-ready esports competitive platform with LinkedIn-style professional networking for gamers, organization verification, multi-game squad management, and real-time tournaments.
 
@@ -7,7 +7,7 @@ Full-stack production-ready esports competitive platform with LinkedIn-style pro
 ## 🏛️ Monorepo Architecture
 
 ```
-Game-Ansh/
+FLUX/
 ├── package.json                 # Monorepo root scripts (verify, dev, build, seed)
 ├── Backend/                     # Node.js + Express + PostgreSQL + Socket.io
 │   ├── .env                     # Local environment configuration
