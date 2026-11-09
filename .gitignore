@@ -29,3 +29,11 @@ Thumbs.db
 # Coverage and test artifacts
 coverage/
 .nyc_output/
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+build/
+**/build/
